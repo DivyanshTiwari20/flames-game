@@ -58,7 +58,7 @@ function calculateFLAMES() {
     });
 
     const remainingLetters = person1.length + person2.length - count;
-    const flames = ['Friendship', 'Love', 'Affection', 'Marriage', 'Enemy', 'Sibling'];
+   const flames = ['🤪Friendship', '❤️Love', '🩷Affection', '😍Marriage', '☠Enemy', '😭Sibling'];
     const result = flames[(remainingLetters - 1) % flames.length];
 
     resultElement.textContent = result;
